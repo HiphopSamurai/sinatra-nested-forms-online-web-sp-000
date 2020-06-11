@@ -29,6 +29,8 @@ module FormsLab
         ship.pirate = pirate
         ship.save
       end
+
+      erb :'pirates/show'
     end
   end
 end

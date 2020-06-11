@@ -30,7 +30,7 @@ module FormsLab
         ship.save
       end
 
-      redirect to '/pirates/show'
+      redirect to "/pirates/#{pirate.id}"
     end
   end
 end

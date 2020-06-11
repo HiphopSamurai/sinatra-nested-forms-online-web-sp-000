@@ -24,6 +24,8 @@ module FormsLab
 
     post '/pirates' do
       pirate = Pirate.new(name: params[:pirate][:name], height: params[:pirate][:height], weight: params[:pirate][:weight])
+      params[:pirate][:ships].each do |ship_data|
+      end
     end
   end
 end

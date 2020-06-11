@@ -23,7 +23,7 @@ module FormsLab
     end
 
     post '/pirates' do
-      Pirate.new(name: params[:pirate][:name], height: params[:pirate][:height], weight: params[:pirate][:weight])
+      pirate = Pirate.new(name: params[:pirate][:name], height: params[:pirate][:height], weight: params[:pirate][:weight])
     end
   end
 end

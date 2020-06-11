@@ -23,7 +23,7 @@ module FormsLab
     end
 
     post '/pirates' do
-      #binding.pry
+      Pirate.new(name: params[:pirate][:name], height: params[:pirate][:height],)
     end
   end
 end

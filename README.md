@@ -1,4 +1,4 @@
-# Sinatra Nested Forms Lab: Pirates!
+## Sinatra Nested Forms Lab: Pirates!
 
 ## Overview
 
